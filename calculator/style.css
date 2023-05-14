@@ -1,0 +1,93 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(151, 213, 255);
+}
+
+.calc{
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    border-radius: 8px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.stroka{
+    width: 350px;
+    height: 72px;
+    border: 1px solid #3c4043;
+    border-radius: 8px;
+    padding: 10px 14px 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+span{
+    margin-bottom: 0px;
+    float: right;
+    font-size: 30px;
+    color: white;
+}
+
+button{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 4px;
+    margin: 6px 3px 6px 3px;    
+    border: None;
+    border-bottom: 2px solid grey ;
+}
+
+button:hover{
+    background-color: rgb(209, 209, 209);
+}
+
+.nums{
+    display: block;
+    float: left;
+    margin: 0px; 
+    width: 280px;
+    height: auto;   
+}
+
+.znaks{
+    display: block;
+    float: right;
+    width: 80px;
+}
+
+.znak{
+    width: 60px;
+    height: 57.7px;
+}
+
+.rez{
+    width: 60px;
+    height: 57.7px;
+    background-color: rgb(255, 81, 0);
+}
+
+.num{
+    width: 80px;
+    height: 75px;
+}
+
+.sbros{
+    width: 80px;
+    height: 75px;
+}
+
+.buttons{
+    display: block;
+    margin: 20px;
+}
+
+.rez:hover{
+    background-color: rgb(201, 64, 0);
+}
